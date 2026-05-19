@@ -3,130 +3,207 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="REPA - aRtificial intElligence for Process Analytics: a PRIN 2022 research project on AI, Process Mining and healthcare process analytics." />
   <title>REPA | Artificial Intelligence for Process Analytics</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="hero">
     <nav class="navbar">
-      <div class="logo">REPA</div>
+      <a class="logo" href="#top" aria-label="REPA homepage">REPA</a>
       <div class="nav-links">
-        <a href="#project">Project</a>
-        <a href="#pipeline">Pipeline</a>
-        <a href="#wp">Work Packages</a>
-        <a href="#partners">Partners</a>
-        <a href="#contacts">Contacts</a>
+        <a href="#overview">Overview</a>
+        <a href="#goals">Goals</a>
+        <a href="#methodology">Methodology</a>
+        <a href="#workpackages">Work Packages</a>
+        <a href="#impact">Impact</a>
+        <a href="#consortium">Consortium</a>
       </div>
     </nav>
 
-    <section class="hero-content">
-      <p class="eyebrow">PRIN 2022 · Research in AI and digital healthcare</p>
+    <section id="top" class="hero-content">
+      <p class="eyebrow">PRIN 2022 · Artificial Intelligence · Process Analytics · Digital Healthcare</p>
       <h1>aRtificial intElligence for Process Analytics</h1>
       <p class="subtitle">
-        REPA explores how Artificial Intelligence, Process Mining and Process Analytics
-        can help healthcare organizations understand, monitor and improve complex processes.
+        REPA investigates how Artificial Intelligence, Machine Learning and Process Mining can support
+        healthcare organizations in understanding, monitoring and improving complex clinical and operational processes.
       </p>
       <div class="hero-actions">
-        <a class="button primary" href="#project">Discover the project</a>
-        <a class="button secondary" href="#contacts">Contact us</a>
+        <a class="button primary" href="#overview">Explore the project</a>
+        <a class="button secondary" href="#methodology">View methodology</a>
       </div>
     </section>
   </header>
 
   <main>
-    <section id="project" class="section two-columns">
+    <section class="stats" aria-label="Project highlights">
+      <article><span>24</span><p>month project duration</p></article>
+      <article><span>AI/ML</span><p>predictive and intelligent models</p></article>
+      <article><span>PM</span><p>process mining and analytics</p></article>
+      <article><span>Healthcare</span><p>target application domain</p></article>
+    </section>
+
+    <section id="overview" class="section two-columns">
       <div>
-        <p class="section-label">The project</p>
-        <h2>AI and Process Analytics to support healthcare organizations</h2>
+        <p class="section-label">Project overview</p>
+        <h2>Turning healthcare process data into actionable knowledge</h2>
       </div>
-      <div>
+      <div class="prose">
         <p>
-          Healthcare organizations generate large amounts of data related to clinical pathways,
-          resources, activities and operational decisions. REPA aims to transform these data into
-          actionable knowledge through analytical models and AI/ML techniques supporting process
-          monitoring, prediction and improvement.
+          Healthcare organizations operate through highly complex processes involving patients, clinical activities,
+          administrative procedures, resources and decision points. These processes generate large volumes of digital
+          traces, but the resulting data are often fragmented, noisy and difficult to interpret.
         </p>
         <p>
-          The project focuses on Process Mining scenarios in healthcare, with particular attention
-          to data quality, process discovery, prediction, recommendation and explainability of results.
+          REPA aims to bridge this gap by combining Process Mining, Process Analytics and Artificial Intelligence.
+          The project focuses on extracting event logs from healthcare data, discovering and analyzing process behavior,
+          predicting future states, and supporting decision-making through explainable AI-based models.
+        </p>
+        <p>
+          The final objective is to provide healthcare stakeholders with methods and tools for monitoring processes,
+          identifying bottlenecks, understanding deviations, supporting resource allocation and improving the quality
+          and efficiency of healthcare services.
         </p>
       </div>
     </section>
 
-    <section class="stats">
-      <article>
-        <span>24</span>
-        <p>month duration</p>
-      </article>
-      <article>
-        <span>AI/ML</span>
-        <p>intelligent models</p>
-      </article>
-      <article>
-        <span>PM</span>
-        <p>process mining</p>
-      </article>
-      <article>
-        <span>Health</span>
-        <p>application domain</p>
-      </article>
-    </section>
-
-    <section id="pipeline" class="section">
-      <p class="section-label">Pipeline</p>
-      <h2>From healthcare data to operational decision-making</h2>
-      <div class="pipeline">
-        <div class="step"><strong>1</strong><h3>Data Acquisition</h3><p>Collection and integration of healthcare data from heterogeneous sources.</p></div>
-        <div class="step"><strong>2</strong><h3>Event Log</h3><p>Construction of event logs for process analysis.</p></div>
-        <div class="step"><strong>3</strong><h3>Process Analytics</h3><p>Discovery, monitoring, predictive learning and change analysis.</p></div>
-        <div class="step"><strong>4</strong><h3>AI/ML Models</h3><p>Intelligent models for prediction, recommendation and explainability.</p></div>
-        <div class="step"><strong>5</strong><h3>Decision Support</h3><p>Outputs supporting management, planning and continuous improvement.</p></div>
+    <section id="goals" class="section soft">
+      <p class="section-label">Research goals</p>
+      <h2>Scientific and operational objectives</h2>
+      <div class="card-grid three">
+        <article class="card">
+          <h3>Process understanding</h3>
+          <p>Discover, model and analyze healthcare workflows from event data, highlighting process variants, frequent patterns and deviations.</p>
+        </article>
+        <article class="card">
+          <h3>Predictive analytics</h3>
+          <p>Develop AI/ML models able to anticipate process outcomes, delays, risks and resource needs across clinical and organizational pathways.</p>
+        </article>
+        <article class="card">
+          <h3>Explainable decision support</h3>
+          <p>Design transparent and interpretable analytics so that results can be understood and trusted by domain experts and healthcare decision-makers.</p>
+        </article>
+        <article class="card">
+          <h3>Data quality</h3>
+          <p>Address heterogeneity, incompleteness and uncertainty in healthcare data before transforming them into reliable event logs.</p>
+        </article>
+        <article class="card">
+          <h3>Optimization</h3>
+          <p>Support process improvement by identifying bottlenecks, inefficiencies, deviations and opportunities for better resource allocation.</p>
+        </article>
+        <article class="card">
+          <h3>Knowledge transfer</h3>
+          <p>Produce reusable methods, scientific outputs and dissemination activities for the research and healthcare communities.</p>
+        </article>
       </div>
     </section>
 
-    <section id="wp" class="section dark">
-      <p class="section-label">Work Packages</p>
-      <h2>Main activities</h2>
-      <div class="cards">
-        <article><h3>WP1 · Project Management</h3><p>Coordination, monitoring and overall project management.</p></article>
-        <article><h3>WP2 · Data Acquisition</h3><p>Collection, preparation and transformation of data into event logs.</p></article>
-        <article><h3>WP3 · Data Analytics</h3><p>Process analysis, quality control and pattern identification.</p></article>
-        <article><h3>WP4 · Validation Scenarios</h3><p>Validation in real healthcare scenarios and comparison with stakeholders.</p></article>
-        <article><h3>WP5 · Explainability</h3><p>Interpretability, transparency and trustworthy decision support.</p></article>
-        <article><h3>WP6 · Dissemination</h3><p>Communication, publications, tutorials, workshops and release of results.</p></article>
-      </div>
-    </section>
-
-    <section id="partners" class="section two-columns">
-      <div>
-        <p class="section-label">Partners & investors</p>
-        <h2>Research units and institutional stakeholders</h2>
-      </div>
-      <div class="team-list">
-        <p><strong>Principal Investigator:</strong> Ernesto Damiani · University of Milan</p>
-        <p><strong>Research units:</strong> University of Bari Aldo Moro, University of Sannio in Benevento, University of Foggia, Free University of Bozen-Bolzano, UnitelmaSapienza University of Rome, University of Trieste.</p>
-      </div>
-    </section>
-
-    <section class="section cta">
-      <h2>Towards smarter, more transparent and more sustainable healthcare processes</h2>
-      <p>
-        REPA aims to generate methodologies, tools and scientific knowledge to improve
-        healthcare process management through AI and Process Analytics.
+    <section id="methodology" class="section">
+      <p class="section-label">Methodology</p>
+      <h2>From raw healthcare data to process intelligence</h2>
+      <p class="lead">
+        The project follows a pipeline that connects data acquisition, event-log construction, process analytics,
+        AI/ML modeling and operational decision support.
       </p>
+      <div class="pipeline">
+        <div class="step"><strong>01</strong><h3>Data acquisition</h3><p>Collect and integrate heterogeneous healthcare data sources describing activities, actors, timestamps and process context.</p></div>
+        <div class="step"><strong>02</strong><h3>Event log construction</h3><p>Transform raw data into structured event logs suitable for Process Mining and analytics tasks.</p></div>
+        <div class="step"><strong>03</strong><h3>Process analytics</h3><p>Discover process models, analyze variants, measure performance and detect deviations from expected behavior.</p></div>
+        <div class="step"><strong>04</strong><h3>AI and ML models</h3><p>Train predictive, prescriptive and explainable models to support monitoring, forecasting and recommendation.</p></div>
+        <div class="step"><strong>05</strong><h3>Decision support</h3><p>Translate analytical results into indicators, evidence and recommendations for healthcare managers and professionals.</p></div>
+      </div>
+    </section>
+
+    <section class="section two-columns">
+      <div>
+        <p class="section-label">Healthcare use cases</p>
+        <h2>Application scenarios</h2>
+      </div>
+      <div class="usecase-list">
+        <article><h3>Patient flow analysis</h3><p>Understanding how patients move across departments, services and care pathways.</p></article>
+        <article><h3>Clinical pathway monitoring</h3><p>Detecting deviations, delays and variants in diagnosis, treatment and follow-up processes.</p></article>
+        <article><h3>Resource allocation</h3><p>Supporting decisions related to personnel, equipment, rooms and operational capacity.</p></article>
+        <article><h3>Performance improvement</h3><p>Identifying bottlenecks and process inefficiencies to improve service quality and timeliness.</p></article>
+      </div>
+    </section>
+
+    <section id="workpackages" class="section dark-section">
+      <p class="section-label">Work packages</p>
+      <h2>Project structure</h2>
+      <div class="wp-grid">
+        <article><span>WP1</span><h3>Project management and coordination</h3><p>Governance, coordination of research units, monitoring of activities, milestones and deliverables.</p></article>
+        <article><span>WP2</span><h3>Data preparation and event-log generation</h3><p>Acquisition, cleaning, integration and transformation of healthcare data into event logs.</p></article>
+        <article><span>WP3</span><h3>Process mining and process analytics</h3><p>Discovery, conformance checking, performance analysis and extraction of process knowledge.</p></article>
+        <article><span>WP4</span><h3>AI and predictive modeling</h3><p>Development of machine-learning models for prediction, classification, recommendation and anomaly detection.</p></article>
+        <article><span>WP5</span><h3>Validation and case studies</h3><p>Evaluation of methods in healthcare scenarios, with attention to interpretability and practical usefulness.</p></article>
+        <article><span>WP6</span><h3>Dissemination and exploitation</h3><p>Scientific publications, workshops, public communication, stakeholder engagement and knowledge transfer.</p></article>
+      </div>
+    </section>
+
+    <section id="timeline" class="section">
+      <p class="section-label">Timeline</p>
+      <h2>Indicative 24-month roadmap</h2>
+      <div class="timeline">
+        <article><span>Months 1–6</span><h3>Setup and data foundations</h3><p>Coordination, requirement analysis, data acquisition strategy and event-log preparation.</p></article>
+        <article><span>Months 7–12</span><h3>Process analytics models</h3><p>Process discovery, conformance analysis, performance indicators and first analytical prototypes.</p></article>
+        <article><span>Months 13–18</span><h3>AI/ML development</h3><p>Predictive modeling, explainability, recommendation mechanisms and integration with process analytics.</p></article>
+        <article><span>Months 19–24</span><h3>Validation and dissemination</h3><p>Case-study evaluation, refinement of outputs, publications, dissemination and final reporting.</p></article>
+      </div>
+    </section>
+
+    <section id="impact" class="section soft">
+      <p class="section-label">Expected impact</p>
+      <h2>Why REPA matters</h2>
+      <div class="impact-grid">
+        <article><h3>For healthcare organizations</h3><p>Better visibility over processes, improved monitoring of operational performance and stronger evidence for management decisions.</p></article>
+        <article><h3>For clinicians and operators</h3><p>Decision-support methods that help interpret complex pathways while preserving transparency and domain relevance.</p></article>
+        <article><h3>For research communities</h3><p>New contributions at the intersection of Process Mining, AI, explainable analytics and healthcare data science.</p></article>
+      </div>
+    </section>
+
+    <section id="consortium" class="section two-columns">
+      <div>
+        <p class="section-label">Consortium and stakeholders</p>
+        <h2>Research network</h2>
+      </div>
+      <div>
+        <p>
+          The project brings together academic and scientific competences in Artificial Intelligence, Process Mining,
+          data analytics, information systems and healthcare process management.
+        </p>
+        <div class="partner-list">
+          <span>University of Foggia</span>
+          <span>Research units</span>
+          <span>Healthcare stakeholders</span>
+          <span>Scientific community</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="dissemination" class="section">
+      <p class="section-label">Outputs</p>
+      <h2>Publications, deliverables and dissemination</h2>
+      <p class="lead">
+        This section can be used to publish scientific papers, conference presentations, public deliverables,
+        workshops, news and project updates as they become available.
+      </p>
+      <div class="placeholder-box">
+        <p>No publications listed yet. Content will be updated during the project lifecycle.</p>
+      </div>
+    </section>
+
+    <section id="contacts" class="section contact">
+      <p class="section-label">Contacts</p>
+      <h2>Get in touch</h2>
+      <p>
+        For information about the REPA project, collaborations or dissemination activities, please contact the project team.
+      </p>
+      <a class="button primary" href="mailto:info@example.com">Contact the project team</a>
     </section>
   </main>
 
-  <footer id="contacts">
-    <div>
-      <h2>REPA</h2>
-      <p>aRtificial intElligence for Process Analytics</p>
-    </div>
-    <div>
-      <p><strong>Contacts</strong></p>
-      <p>Email: <a href="mailto:ernesto.damiani@unimi.it">ernesto.damiani@unimi.it</a></p>
-      <p class="small">Demo website created for GitHub Pages.</p>
-    </div>
+  <footer>
+    <p>© REPA Project · PRIN 2022 · aRtificial intElligence for Process Analytics</p>
   </footer>
 </body>
 </html>
