@@ -541,3 +541,128 @@ body {
     }
 
 }
+
+/* =========================================================
+   EVENTS GRID
+   ========================================================= */
+
+.events-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 45px;
+}
+
+.event-card {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    gap: 36px;
+
+    padding: 35px;
+
+    background: white;
+    border: 1px solid var(--line);
+    border-radius: 22px;
+
+    box-shadow: var(--shadow);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 40px rgba(15, 23, 42, 0.09);
+}
+
+.featured-event {
+    border: 2px solid #bfdbfe;
+    background:
+        linear-gradient(
+            135deg,
+            #ffffff 0%,
+            #f8fbff 100%
+        );
+}
+
+.event-date {
+    height: 120px;
+    background: var(--primary);
+    border-radius: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.event-year-large {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: white;
+}
+
+.event-meta {
+    color: var(--muted);
+    font-weight: 500;
+    margin: 8px 0 18px;
+}
+
+
+/* =========================================================
+   ACCEPTED PAPERS
+   ========================================================= */
+
+.accepted-section {
+    margin-top: 60px;
+}
+
+.subsection-title {
+    color: var(--primary);
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+.accepted-publication {
+    background: #f8fafc;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.status-badge {
+    display: inline-block;
+
+    padding: 5px 10px;
+    margin-bottom: 10px;
+
+    background: #ecfdf5;
+    color: #047857;
+
+    border: 1px solid #a7f3d0;
+    border-radius: 20px;
+
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+}
+
+
+/* =========================================================
+   RESPONSIVE EVENTS
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+    .event-card {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 25px;
+    }
+
+    .event-date {
+        width: 100px;
+        height: 70px;
+    }
+
+}
